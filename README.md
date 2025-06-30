@@ -11,9 +11,7 @@ A simple and functional **Audio Recorder** Android application built using **Jav
 - Playback recordings using `MediaPlayer`
 - Simple and clean UI with basic buttons
 
-## 📸 Screenshots
 
-*(Add screenshots here if available)*
 
 ## 📁 Project Structure
 
