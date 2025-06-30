@@ -1,10 +1,10 @@
 
 ```markdown
-# 🎤 Audio Recorder Example (Android - Java)
+🎤 Audio Recorder Example (Android - Java)
 
 A simple and functional **Audio Recorder** Android application built using **Java**. This project demonstrates how to record and play back audio using the device’s microphone and store the recordings locally.
 
-## 🚀 Features
+🚀 Features
 
 - Record audio using `MediaRecorder`
 - Save recordings to local storage
@@ -12,8 +12,7 @@ A simple and functional **Audio Recorder** Android application built using **Jav
 - Simple and clean UI with basic buttons
 
 
-
-## 📁 Project Structure
+📁 Project Structure
 
 ```
 
@@ -28,13 +27,13 @@ app/
 
 ````
 
-## 🧑‍💻 Requirements
+🧑‍💻 Requirements
 
 - Android Studio Giraffe or later
 - Java 8+
 - Minimum SDK: 23 (Android 6.0)
 
-## ⚙️ Setup
+⚙️ Setup
 
 1. Clone the repository
    ```bash
@@ -46,7 +45,7 @@ app/
 
 3. **Build and run on a physical device** (microphone support required)
 
-## 🔐 Permissions
+🔐 Permissions
 
 Add the following permissions to `AndroidManifest.xml`:
 
