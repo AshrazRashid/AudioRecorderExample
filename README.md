@@ -14,7 +14,6 @@ A simple and functional **Audio Recorder** Android application built using **Jav
 
 📁 Project Structure
 
-```
 app/
 ├── java/
 │   └── com.example.audiorecorder/
@@ -24,7 +23,8 @@ app/
 │   └── drawable/                    # Optional icons
 ├── AndroidManifest.xml              # App permissions
 
-````
+
+
 
 🧑‍💻 Requirements
 
