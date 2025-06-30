@@ -15,7 +15,6 @@ A simple and functional **Audio Recorder** Android application built using **Jav
 📁 Project Structure
 
 ```
-
 app/
 ├── java/
 │   └── com.example.audiorecorder/
@@ -36,7 +35,7 @@ app/
 ⚙️ Setup
 
 1. Clone the repository
-   ```bash
+   
    git clone https://github.com/AshrazRashid/AudioRecorderExample.git
    cd AudioRecorderExample
 ````
