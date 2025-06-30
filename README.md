@@ -36,7 +36,7 @@ app/
 
 ## ⚙️ Setup
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/AshrazRashid/AudioRecorderExample.git
    cd AudioRecorderExample
