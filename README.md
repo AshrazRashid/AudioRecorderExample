@@ -1,96 +1,97 @@
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-```markdown
-🎤 Audio Recorder Example (Android - Java)
+# Getting Started
 
-A simple and functional Audio Recorder Android application built using Java. This project demonstrates how to record and play back audio using the device’s microphone and store the recordings locally.
+> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
-🚀 Features
+## Step 1: Start Metro
 
-- Record audio using `MediaRecorder`
-- Save recordings to local storage
-- Playback recordings using `MediaPlayer`
-- Simple and clean UI with basic buttons
+First, you will need to run **Metro**, the JavaScript build tool for React Native.
 
+To start the Metro dev server, run the following command from the root of your React Native project:
 
-📁 Project Structure
+```sh
+# Using npm
+npm start
 
-app/
-├── java/
-│   └── com.example.audiorecorder/
-│       └── MainActivity.java        # Main recording and playback logic
-├── res/
-│   └── layout/activity\_main.xml     # UI layout
-│   └── drawable/                    # Optional icons
-├── AndroidManifest.xml              # App permissions
-
-
-🧑‍💻 Requirements
-
-- Android Studio Giraffe or later
-- Java 8+
-- Minimum SDK: 23 (Android 6.0)
-
-⚙️ Setup
-
-1. Clone the repository
-   
-   git clone https://github.com/AshrazRashid/AudioRecorderExample.git
-   cd AudioRecorderExample
-````
-
-2. **Open the project in Android Studio**
-
-3. **Build and run on a physical device** (microphone support required)
-
-🔐 Permissions
-
-Add the following permissions to `AndroidManifest.xml`:
-
-```xml
-<uses-permission android:name="android.permission.RECORD_AUDIO" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+# OR using Yarn
+yarn start
 ```
 
-Ensure to request them **at runtime** for Android 6.0+ using the `ActivityCompat` class.
+## Step 2: Build and run your app
 
-## 📦 Dependencies
+With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
 
-This project uses only core Android SDK classes:
+### Android
 
-* `MediaRecorder`
-* `MediaPlayer`
-* `FileOutputStream`
+```sh
+# Using npm
+npm run android
 
-## ✨ Future Enhancements
-
-* Display recording duration
-* List previously saved recordings
-* Waveform visualizer
-* Export as MP3
-
-## 👨‍💻 Author
-
-**Ashraz Rashid**
-Mobile Application Developer
-[GitHub](https://github.com/AshrazRashid)
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to fork and customize this project to suit your needs—voice memos, audio notes, or chat app integration!
-
+# OR using Yarn
+yarn android
 ```
 
----
+### iOS
 
-Would you like me to customize it further once you're able to confirm?
-- Whether recordings are saved in `.3gp`, `.mp4`, or `.wav`?
-- Whether multiple recordings can be saved/listed?
-- Any additional UI components?
+For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
 
-Let me know, and I’ll refine it even further.
+The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+
+```sh
+bundle install
 ```
+
+Then, and every time you update your native dependencies, run:
+
+```sh
+bundle exec pod install
+```
+
+For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+
+```sh
+# Using npm
+npm run ios
+
+# OR using Yarn
+yarn ios
+```
+
+If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+
+This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+
+## Step 3: Modify your app
+
+Now that you have successfully run the app, let's make changes!
+
+Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+
+When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+
+- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
+- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+
+## Congratulations! :tada:
+
+You've successfully run and modified your React Native App. :partying_face:
+
+### Now what?
+
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+
+# Troubleshooting
+
+If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
+# Learn More
+
+To learn more about React Native, take a look at the following resources:
+
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.

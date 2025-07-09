@@ -1,0 +1,18 @@
+current directory: /Users/mac/Documents/WorkSpace/AudioRecorderExampleNew/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+/usr/local/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/mac/Documents/WorkSpace/AudioRecorderExampleNew/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250709-56115-a3u1x0 sitelibdir\=./.gem.20250709-56115-a3u1x0 clean
+
+current directory: /Users/mac/Documents/WorkSpace/AudioRecorderExampleNew/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250709-56115-a3u1x0 sitelibdir\=./.gem.20250709-56115-a3u1x0
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/mac/Documents/WorkSpace/AudioRecorderExampleNew/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250709-56115-a3u1x0 sitelibdir\=./.gem.20250709-56115-a3u1x0 install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20250709-56115-a3u1x0
+
+current directory: /Users/mac/Documents/WorkSpace/AudioRecorderExampleNew/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250709-56115-a3u1x0 sitelibdir\=./.gem.20250709-56115-a3u1x0 clean
